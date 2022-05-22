@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422aef97-80ae-4fc9-a8a5-7ebfd9077794" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursionAndBacktracking/PermutationOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursionAndBacktracking/Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursionAndBacktracking/LetterCombination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeeksForgeeks/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeeksForgeeks/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeeksForgeeks/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/FloodFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/NOofIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/NOofIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/SortColors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.11954023&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PermutationOfString">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LetterCombination">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.BFS" />
       <module name="CrackYourInternship" />
@@ -101,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBacktracking.LetterCombination" />
+      <module name="CrackYourInternship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionAndBacktracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetterCombination" />
         <item itemvalue="Application.PermutationOfString" />
         <item itemvalue="Application.Leetcode.Subsequence" />
         <item itemvalue="Application.Graph.Cycle" />
