@@ -1,4 +1,4 @@
-package Leetcode;
+package Graph;
 //https://leetcode.com/problems/flood-fill/
 //733
 public class FloodFill {

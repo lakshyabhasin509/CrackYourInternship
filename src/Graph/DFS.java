@@ -1,4 +1,4 @@
-package GeeksForgeeks;
+package Graph;
 
 import java.util.ArrayList;
 import java.util.Stack;
