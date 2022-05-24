@@ -88,7 +88,7 @@ public class Cycle {
                 Scanner sc=new Scanner(System.in);
                 int n= sc.nextInt();
                 int m= sc.nextInt();
-                Graph<Integer> g=new Graph<>(n);
+                Graph<Integer> g= new Graph<Integer>(n);
                 for (int i = 0; i < m; i++) {
                     int u= sc.nextInt();
                     int v= sc.nextInt();
@@ -101,4 +101,8 @@ public class Cycle {
                 System.out.println( c.detectCycleDFSDirected(n,list));
 
             }
+           public boolean detectCycleDisjointSet(int V, ArrayList<ArrayList<Integer>> adj){
+
+        return false;
+           }
     }
