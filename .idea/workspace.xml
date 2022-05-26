@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422aef97-80ae-4fc9-a8a5-7ebfd9077794" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP/Knapsack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Cycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Knapsack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +73,13 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RatInMaze">
-    <configuration name="LeaderInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Softnerve.LeaderInArray" />
+  <component name="RunManager" selected="Application.Knapsack">
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.Knapsack" />
       <module name="CrackYourInternship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Softnerve.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAndBacktracking.LetterCombination" />
+    <configuration name="LeaderInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Softnerve.LeaderInArray" />
       <module name="CrackYourInternship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RecursionAndBacktracking.*" />
+          <option name="PATTERN" value="Softnerve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.RatInMaze" />
         <item itemvalue="Application.SubsetXORSum" />
         <item itemvalue="Application.StockBuySell" />
         <item itemvalue="Application.LeaderInArray" />
-        <item itemvalue="Application.LetterCombination" />
       </list>
     </recent_temporary>
   </component>
