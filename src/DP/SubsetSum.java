@@ -34,11 +34,9 @@ public class SubsetSum {
         System.out.println("Enter the Target");
         int target=sc.nextInt();
         SubsetSum ob=new SubsetSum(n,target);
-       boolean b= ob.isSubsetSum(arr,target);
-        System.out.println(b);
 
-        System.out.println(ob.checkIfTargetMem(arr,target,arr.length));
-        System.out.println(ob.checkIfTargetIter(arr,target,arr.length));
+        System.out.println( ob.countSubsetsMem(arr,target,arr.length));
+        System.out.println(ob.countSubsetsIter(arr,target,arr.length));
 
     }
     boolean isSubsetSum(int arr[],int target){
@@ -108,4 +106,44 @@ public class SubsetSum {
                 return t[n][target];
     }
 
+
+    int count(int arr[],int target){
+        return countSubsetsMem(arr,target,arr.length);
+    }
+
+    private int countSubsetsMem(int[] arr, int target, int n) {
+        if(target==0)return 1;
+        if(n==0)
+            return 0;
+
+        if(dp[n][target]!=-1)return dp[n][target];
+        if(arr[n-1]<=target)
+        return dp[n][target]=countSubsetsMem(arr,target,n-1)
+                +countSubsetsMem(arr,target-arr[n-1],n-1);
+        else
+            return dp[n][target]=countSubsetsMem(arr, target, n-1);
+
+
+    }
+    private int countSubsetsIter(int[] arr, int target, int n) {
+        int[][]t=new int[n+1][target+1];
+        for (int i = 0; i < n+1; i++) {
+            for (int j = 0; j <target+1 ; j++) {
+                if(j==0)t[i][j]=1;
+
+                if(i==0 && j>0)t[i][j]=0;
+            }
+
+        }
+
+        for (int i = 1; i < n+1; i++) {
+            for (int j = 1; j < target+1; j++) {
+                if(arr[n-1]<=target)
+                    t[n][target]=t[n-1][target]+t[n-1][target-arr[n-1]];
+                else
+                    t[n][target]=t[n-1][target];
+            }
+        }
+        return t[n][target];
+    }
 }

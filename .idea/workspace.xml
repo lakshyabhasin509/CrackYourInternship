@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="422aef97-80ae-4fc9-a8a5-7ebfd9077794" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/EqualSumParition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/EqualSumParition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DP/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/SubsetSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualSumParition">
+  <component name="RunManager" selected="Application.SubsetSum">
     <configuration name="EqualSumParition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.EqualSumParition" />
       <module name="CrackYourInternship" />
@@ -154,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EqualSumParition" />
         <item itemvalue="Application.SubsetSum" />
+        <item itemvalue="Application.EqualSumParition" />
         <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.RatInMaze" />
         <item itemvalue="Application.SubsetXORSum" />
@@ -204,7 +203,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DP/SubsetSum.java</url>
-          <line>64</line>
+          <line>61</line>
           <properties class="DP.SubsetSum" method="checkIfTargetMem">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -213,7 +212,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DP/SubsetSum.java</url>
-          <line>83</line>
+          <line>80</line>
           <properties class="DP.SubsetSum" method="checkIfTargetIter">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
