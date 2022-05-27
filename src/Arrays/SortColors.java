@@ -1,4 +1,4 @@
-package Leetcode;
+package Arrays;
 //https://leetcode.com/problems/sort-colors/
 //75
 public class SortColors {

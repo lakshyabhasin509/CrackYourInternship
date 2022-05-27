@@ -1,4 +1,4 @@
-package Leetcode;
+package Graph;
 //https://leetcode.com/problems/number-of-islands/
 //200
 public class NOofIslands {
