@@ -15,16 +15,16 @@ int[][]dp;
 
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 100; j++) {
-                if(i==0 || j==0)dp[i][j]=-1;
+                dp[i][j]=-1;
             }
         }
     }
 
     public static void main(String[] args) {
-    Knapsack ob=new Knapsack(4,7);
-    int res=ob.O_1_KnapsaIter(new int[]{1,3,4,5},new int[]{1,4,5,7},7,4);
-        System.out.println(ob.O_1_KnapsackMem(new int[]{1,3,4,5},new int[]{1,4,5,7},7,4));
-    System.out.println(res);
+    Knapsack ob=new Knapsack(5,18);
+    int res=ob.O_1_KnapsaIter(new int[]{1,3,7,4,5},new int[]{1,4,7,5,7},18,5);
+        System.out.println(ob.O_1_KnapsackMem(new int[]{1,3,7,4,5},new int[]{1,4,7,5,7},18,5));
+        System.out.println(res);
 }
 
 
@@ -53,6 +53,11 @@ int[][]dp;
     }
 
     int O_1_KnapsaIter(int[]weight,int[] price,int W,int n){
+        for (int i = 1; i < n+1; i++) {
+            for (int j = 1; j < W + 1; j++) {
+                if (i == 0 || j == 0) dp[i][j] = 0;
+            }
+        }
         for (int i = 1; i < n+1; i++) {
             for (int j = 1; j < W+1; j++) {
 
