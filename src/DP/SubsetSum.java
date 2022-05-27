@@ -97,15 +97,13 @@ public class SubsetSum {
         for (int i = 1; i < t.length; i++) {
             for (int j = 1; j < t[0].length; j++){
 
-                if(arr[i-1]>=j)t[i][j]=t[i-1][j];
+                if(arr[i-1]>j)t[i][j]=t[i-1][j];
 
                 else
                     t[i][j]=t[i-1][j]||t[i-1][j-arr[i-1]];
 
             }
         }
-
-
 
                 return t[n][target];
     }
