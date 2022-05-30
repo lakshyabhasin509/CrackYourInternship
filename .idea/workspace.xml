@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422aef97-80ae-4fc9-a8a5-7ebfd9077794" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DP/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/SubsetSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +203,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DP/SubsetSum.java</url>
           <line>61</line>
-          <properties class="DP.SubsetSum" method="checkIfTargetMem">
+          <properties class="DP.SubsetSum">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -213,7 +212,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DP/SubsetSum.java</url>
           <line>80</line>
-          <properties class="DP.SubsetSum" method="checkIfTargetIter">
+          <properties class="DP.SubsetSum">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
