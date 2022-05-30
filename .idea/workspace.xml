@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422aef97-80ae-4fc9-a8a5-7ebfd9077794" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DP/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/SubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MinimumSubsetZSumDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubsetSum">
+  <component name="RunManager" selected="Application.MinimumSubsetZSumDiff">
     <configuration name="EqualSumParition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.EqualSumParition" />
       <module name="CrackYourInternship" />
@@ -100,6 +101,19 @@
     </configuration>
     <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.Knapsack" />
+      <module name="CrackYourInternship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSubsetZSumDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.MinimumSubsetZSumDiff" />
       <module name="CrackYourInternship" />
       <extension name="coverage">
         <pattern>
@@ -137,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetXORSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Softnerve.SubsetXORSum" />
-      <module name="CrackYourInternship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Softnerve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSubsetZSumDiff" />
         <item itemvalue="Application.SubsetSum" />
         <item itemvalue="Application.EqualSumParition" />
         <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.RatInMaze" />
-        <item itemvalue="Application.SubsetXORSum" />
       </list>
     </recent_temporary>
   </component>
