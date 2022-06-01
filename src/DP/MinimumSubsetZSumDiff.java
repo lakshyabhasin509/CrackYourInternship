@@ -4,6 +4,21 @@ import java.util.Scanner;
 
 public class MinimumSubsetZSumDiff {
 
+    MinimumSubsetZSumDiff(int n,int sum){
+        dp=new int[n+1][sum+1];
+
+        memset();
+    }
+
+    private void memset() {
+        for (int i = 0; i < dp.length; i++) {
+            for (int j = 0; j < dp[0].length; j++) {
+                dp[i][j]=-1;
+            }
+
+        }
+    }
+
     int[][] dp;
     public static void main(String[] args) {
 
@@ -16,18 +31,21 @@ public class MinimumSubsetZSumDiff {
             arr[i] = sc.nextInt();
             sum+=arr[i];
         }
-        MinimumSubsetZSumDiff ob=new MinimumSubsetZSumDiff();
+        MinimumSubsetZSumDiff ob=new MinimumSubsetZSumDiff(arr.length,sum);
 
-        System.out.println(ob.minDifference(arr,0,0,sum));
+        System.out.println(ob.minDifference(arr,arr.length,0,sum));
     }
 
+
     int minDifference(int[] arr,int n,int sum,int total){
-        if(n== arr.length)return Math.abs((total-sum)-sum);
+        if(n==0)return Math.abs((total-sum)-sum);
 
-        int taken=minDifference(arr,n+1,sum+arr[n],total);
-        int notTaken=minDifference(arr,n+1,sum,total);
+        if(dp[n][sum]!=-1)return dp[n][sum];
 
-        return Math.min(taken,notTaken);
+        int taken=minDifference(arr,n-1,sum+arr[n],total);
+        int notTaken=minDifference(arr,n-1,sum,total);
+
+        return dp[n][sum]=Math.min(taken,notTaken);
     }
 
 }
